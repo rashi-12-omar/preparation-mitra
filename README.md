@@ -24,4 +24,5 @@ When a user selects a category, the system fetches and displays the data as foll
 User Query : "What is the average time complexity of searching in a Balanced Binary Search Tree?"
 
 System Response : The app retrieves the correct answer ($O(\log n)$) from the MongoDB Atlas cloud.
+
 Detailed Feedback : Upon selection, the platform provides an explanation: "Each comparison in a balanced BST skips half the remaining nodes, leading to logarithmic time complexity."
