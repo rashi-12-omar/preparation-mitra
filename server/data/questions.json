@@ -1,0 +1,110 @@
+[
+  {
+    "category": "Technical",
+    "topic": "React.js",
+    "questionText": "What is the purpose of 'key' prop in React lists?",
+    "options": [
+      { "answerText": "To style specific elements", "isCorrect": false },
+      { "answerText": "To help React identify which items have changed, been added, or removed", "isCorrect": true },
+      { "answerText": "To store the index of the element in the database", "isCorrect": false }
+    ],
+    "explanation": "Keys help React identify which items in a list have changed, which is crucial for efficient DOM re-rendering."
+  },
+  {
+    "category": "Technical",
+    "topic": "JavaScript",
+    "questionText": "What is the difference between '==' and '==='?",
+    "options": [
+      { "answerText": "There is no difference", "isCorrect": false },
+      { "answerText": "== checks for value only, while === checks for both value and type", "isCorrect": true },
+      { "answerText": "=== is only used for strings", "isCorrect": false }
+    ],
+    "explanation": "Strict equality (===) does not perform type coercion, making it safer for comparisons."
+  },
+  {
+    "category": "Technical",
+    "topic": "Node.js",
+    "questionText": "Which module is used to create a web server in Node.js?",
+    "options": [
+      { "answerText": "url", "isCorrect": false },
+      { "answerText": "http", "isCorrect": true },
+      { "answerText": "fs", "isCorrect": false }
+    ],
+    "explanation": "The built-in http module allows Node.js to transfer data over the Hyper Text Transfer Protocol (HTTP)."
+  },
+  {
+    "category": "Technical",
+    "topic": "MongoDB",
+    "questionText": "What kind of database is MongoDB?",
+    "options": [
+      { "answerText": "Relational (SQL)", "isCorrect": false },
+      { "answerText": "NoSQL (Document-oriented)", "isCorrect": true },
+      { "answerText": "Graph-based", "isCorrect": false }
+    ],
+    "explanation": "MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document."
+  },
+  {
+    "category": "Technical",
+    "topic": "CSS",
+    "questionText": "What does the 'z-index' property do?",
+    "options": [
+      { "answerText": "Changes the zoom level of an element", "isCorrect": false },
+      { "answerText": "Specifies the stack order of an element", "isCorrect": true },
+      { "answerText": "Sets the transparency of an element", "isCorrect": false }
+    ],
+    "explanation": "An element with greater stack order is always in front of an element with a lower stack order."
+  },
+  {
+    "category": "HR",
+    "topic": "Behavioral",
+    "questionText": "Why should we hire you?",
+    "options": [
+      { "answerText": "Because I need a job", "isCorrect": false },
+      { "answerText": "Because my skills align with your requirements and I am a quick learner", "isCorrect": true },
+      { "answerText": "Because I live nearby", "isCorrect": false }
+    ],
+    "explanation": "This question tests your understanding of the job role and how your unique skills solve the company's problems."
+  },
+  {
+    "category": "HR",
+    "topic": "Behavioral",
+    "questionText": "How do you handle tight deadlines?",
+    "options": [
+      { "answerText": "I panic and rush the work", "isCorrect": false },
+      { "answerText": "I prioritize tasks and use time management tools to stay focused", "isCorrect": true },
+      { "answerText": "I ask for an extension immediately", "isCorrect": false }
+    ],
+    "explanation": "Employers look for candidates who can remain calm and productive under pressure."
+  },
+  {
+    "category": "HR",
+    "topic": "Goals",
+    "questionText": "Where do you see yourself in 5 years?",
+    "options": [
+      { "answerText": "In your position", "isCorrect": false },
+      { "answerText": "As a senior developer contributing to major architectural decisions", "isCorrect": true },
+      { "answerText": "I haven't thought about it", "isCorrect": false }
+    ],
+    "explanation": "This shows your ambition and whether your long-term goals align with the company's growth."
+  },
+  {
+    "category": "HR",
+    "topic": "Conflict",
+    "questionText": "Describe a time you had a disagreement with a teammate.",
+    "options": [
+      { "answerText": "I stopped talking to them", "isCorrect": false },
+      { "answerText": "I listened to their perspective and we found a data-driven compromise", "isCorrect": true }
+    ],
+    "explanation": "Focus on your communication and problem-solving skills rather than the conflict itself."
+  },
+  {
+    "category": "HR",
+    "topic": "Salary",
+    "questionText": "What are your salary expectations?",
+    "options": [
+      { "answerText": "As much as possible", "isCorrect": false },
+      { "answerText": "I am open to a competitive offer based on the industry standard for this role", "isCorrect": true }
+    ],
+    "explanation": "It's best to research market rates and show flexibility while acknowledging your worth."
+  }
+]
